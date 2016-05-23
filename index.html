@@ -6,11 +6,8 @@
     <title></title>
   </head>
   <body ng-controller = "mainCtrl">
-    <p>
-      Woo!
-    </p>
     <h1>My Friends</h1>
-    <div ng-repeat="friend in friends track by $index">
+    <div ng-repeat="friend in friends">
       <p> {{ friend }} </p>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
